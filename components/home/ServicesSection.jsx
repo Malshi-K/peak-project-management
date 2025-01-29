@@ -3,7 +3,7 @@ import { Building2, ClipboardCheck, HardHat, Users2, ChartBar, ShieldCheck } fro
 
 const ServiceCard = ({ Icon, title, description }) => (
   <div className="p-8 backdrop-blur-sm group transition-all hover:bg-slate-800/20 rounded-lg">
-    <div className="w-12 h-12 text-sky-400 mb-4">
+    <div className="w-12 h-12 text-skyBlue mb-4">
       {Icon}
     </div>
     <h3 className="text-xl font-bold text-white mb-3">{title}</h3>

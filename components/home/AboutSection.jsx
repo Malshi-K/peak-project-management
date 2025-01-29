@@ -1,5 +1,5 @@
 import React from "react";
-import GradientButton from "./GradientButton";
+import GradientButton from "../GradientButton";
 import { Building2, Users } from "lucide-react";
 
 const AboutSection = () => {
@@ -51,7 +51,7 @@ const AboutSection = () => {
           </div>
 
           {/* Content Section */}
-          <div className="text-slate-800 space-y-4 sm:space-y-6 order-1 lg:order-2">
+          <div className="text-customSlate space-y-4 sm:space-y-6 order-1 lg:order-2">
             <div className="space-y-2">
               <p className="text-white uppercase tracking-wider text-sm font-bold">
                 About Us
@@ -73,7 +73,7 @@ const AboutSection = () => {
               <div className="flex items-start gap-3">
                 <Building2 className="text-white w-6 h-6 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-slate-800">
+                  <h4 className="font-semibold text-customSlate">
                     Expert Management
                   </h4>
                   <p className="text-sm text-white">
@@ -84,7 +84,7 @@ const AboutSection = () => {
               <div className="flex items-start gap-3">
                 <Users className="text-white w-6 h-6 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-slate-800">
+                  <h4 className="font-semibold text-customSlate">
                     Dedicated Teams
                   </h4>
                   <p className="text-sm text-white">

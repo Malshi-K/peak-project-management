@@ -1,6 +1,6 @@
 import React from "react";
 import { Building2, ArrowRight } from "lucide-react";
-import GradientButton from "./GradientButton";
+import GradientButton from "../GradientButton";
 
 const HeroSection = () => {
   return (
@@ -12,18 +12,18 @@ const HeroSection = () => {
           alt="Hero background"
           className="object-cover w-full h-full"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent sm:from-slate-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-customSlate/90 to-transparent sm:from-customSlate/80" />
       </div>
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 
-        pt-20 sm:pt-24 md:pt-32 min-h-[inherit] flex items-center">
+        min-h-[inherit] flex items-center">
         <div className="max-w-2xl p-4 rounded-lg backdrop-blur-sm">
           {/* Headings */}
           <div className="space-y-3 sm:space-y-6">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
               <span className="text-white">PEAK</span>{" "}
-              <span className="text-sky-400">Project</span>
+              <span className="text-skyBlue">Project</span>
             </h1>
             <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-medium">
               Management Excellence

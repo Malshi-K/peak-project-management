@@ -1,8 +1,9 @@
 import React from "react";
-import AboutSection from "@/components/AboutSection";
-import HeroSection from "@/components/HeroSection";
-import ServicesSection from "@/components/ServicesSection";
-import TeamSection from "@/components/TeamMember";
+import AboutSection from "@/components/home/AboutSection";
+import HeroSection from "@/components/home/HeroSection";
+import ServicesSection from "@/components/home/ServicesSection";
+import TeamSection from "@/components/home/TeamMember";
+import ContactSection from "@/components/home/ContactSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <ServicesSection />
         <AboutSection />
         <TeamSection />
+        <ContactSection />
       </div>
     </main>
   );
