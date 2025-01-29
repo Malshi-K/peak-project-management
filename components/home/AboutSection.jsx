@@ -1,6 +1,7 @@
 import React from "react";
 import GradientButton from "../GradientButton";
 import { Building2, Users } from "lucide-react";
+import Link from "next/link";
 
 const AboutSection = () => {
   return (
@@ -103,9 +104,11 @@ const AboutSection = () => {
             </p>
 
             <div className="pt-2">
+              <Link href="/about">
               <GradientButton className="w-full sm:w-auto justify-center">
                 Discover Our Approach
               </GradientButton>
+              </Link>
             </div>
           </div>
         </div>
