@@ -85,8 +85,8 @@ const Footer = () => {
           <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between text-sm text-slate-400">
             <p>Copyright © {new Date().getFullYear()} GDC Digital Solutions. All Rights Reserved.</p>
             <div className="flex gap-6">
-              <a href="/privacy" className="hover:text-white">Privacy Policy</a>
-              <a href="/terms" className="hover:text-white">Terms of Service</a>
+              <a href="/privacy-policy" className="text-slate-400 hover:text-white">Privacy Policy</a>
+              <a href="/terms-of-service" className="text-slate-400 hover:text-white">Terms of Service</a>
             </div>
           </div>
         </div>

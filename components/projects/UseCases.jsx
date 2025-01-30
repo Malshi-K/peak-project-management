@@ -7,14 +7,14 @@ const UseCases = () => {
     {
       title: "Real-Time Project Tracking",
       description:
-        "Advanced project monitoring system that provides real-time updates on construction progress. Track labor hours, material usage, and equipment allocation across multiple sites simultaneously. Improve decision-making with instant access to critical project metrics and performance indicators.",
+        "Advanced project monitoring system that provides real-time updates on construction progress. Track labour hours, material usage, and equipment allocation across multiple sites simultaneously. Improve decision-making with instant access to critical project metrics and performance indicators.",
       image: "/images/project-hero-bg.jpg",
       icon: <Gauge className="w-8 h-8 sm:w-10 sm:h-10 text-white" />,
     },
     {
-      title: "Resource Optimization",
+      title: "Resource Optimisation",
       description:
-        "Streamline resource allocation across multiple construction sites. Our intelligent system manages equipment scheduling, workforce deployment, and material delivery coordination. Minimize downtime and maximize efficiency with automated resource tracking and predictive maintenance alerts.",
+        "Streamline resource allocation across multiple construction sites. Our intelligent system manages equipment scheduling, workforce deployment, and material delivery coordination. Minimise downtime and maximise efficiency with automated resource tracking and predictive maintenance alerts.",
       image: "/images/project-hero-bg.jpg",
       icon: <Factory className="w-8 h-8 sm:w-10 sm:h-10 text-white" />,
     },
